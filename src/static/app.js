@@ -1,4 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+﻿document.addEventListener("DOMContentLoaded", () => {
   const activitiesList = document.getElementById("activities-list");
   const activitySelect = document.getElementById("activity");
   const signupForm = document.getElementById("signup-form");
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         data-email="${email}"
                         title="Unregister"
                         aria-label="Unregister ${email}"
-                      >✕</button>
+                      >âœ•</button>
                     </li>`
                     )
                     .join("")}
@@ -140,3 +140,5 @@ document.addEventListener("DOMContentLoaded", () => {
   // Initialize app
   fetchActivities();
 });
+
+// participants UI enabled
