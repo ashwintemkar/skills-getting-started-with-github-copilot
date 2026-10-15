@@ -1,4 +1,4 @@
-* {
+﻿* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -182,3 +182,5 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+/* participant styles enabled */
